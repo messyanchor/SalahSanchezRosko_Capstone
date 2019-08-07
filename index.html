@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Rosok - Sanchez - Salah</title>
+
+  <!-- Custom fonts for this theme -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+  <!-- Theme CSS -->
+  <link href="css/freelancer.min.css" rel="stylesheet">
+</head>
+
+<body id="page-top">
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">MIDS 2019</a>
+      <button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item mx-0 mx-lg-1">
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#summary">Summary</a>
+          </li>
+          <li class="nav-item mx-0 mx-lg-1">
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#context">Context</a>
+          </li>
+          <li class="nav-item mx-0 mx-lg-1">
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#experiment">Experiment</a>
+          </li>
+          <li class="nav-item mx-0 mx-lg-1">
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#results">Results</a>
+          </li>
+          <li class="nav-item mx-0 mx-lg-1">
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#conclusion">Conclusion</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Masthead -->
+  <header class="masthead bg-primary text-white text-center">
+    <div class="container d-flex align-items-center flex-column">
+
+      <!-- Masthead Avatar Image -->
+      <img class="masthead-avatar mb-5" src="img/flag.svg" alt="">
+
+      <!-- Masthead Heading -->
+      <h1 class="masthead-heading text-uppercase mb-0">Bring Data Science to
+      </br>Racial / Ethnic Data Collection</h1>
+
+      <!-- Icon Divider -->
+      <div class="divider-custom divider-light">
+        <div class="divider-custom-line"></div>
+<!--         <div class="divider-custom-icon">
+          <i class="fas fa-star"></i>
+        </div> -->
+<!--         <div class="divider-custom-line"></div> -->
+      </div>
+
+      <!-- Masthead Subheading -->
+      <p class="masthead-subheading font-weight-light mb-0">An exploration of the ways that structured racial and ethnic</p>
+
+      <p class="masthead-subheading font-weight-light mb-0">demographic data collection fails to capture the complex identities</p>
+
+      <p class="masthead-subheading font-weight-light mb-0">of America's population, and recommendations for how data scientists can</p>
+
+      <p class="masthead-subheading font-weight-light mb-0">bring more nuanced understandings to collection processes.</p>
+
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section class="page-section" id="summary">
+    <div class="container">
+
+      <!-- About Section Heading -->
+      <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Summary</h2>
+
+      <!-- Icon Divider -->
+      <div class="divider-custom divider-dark">
+        <div class="divider-custom-line"></div>
+      </div>
+
+      <!-- About Section Content -->
+      <div class="row">
+        <div class="masthead-subheading font-weight-light mb-0">
+          <p class="lead">Race is complex, but the nature of collecting and analyzing demographic information requires organizing individuals into categories. If the information we collect is too specific, it becomes analytically challenging to derive any meaningful insights. If the information is too broad, it risks obscuring trends within subgroups of a category.
+          </p>
+        </div>
+        <div class="masthead-subheading font-weight-light mb-0">
+          <p class="lead">But collecting this information is important. As one of the largest collectors of American demographic data, The United States Census Bureau uses the results to allocate over $400 billion of funds each year. It becomes critically important then how a group of people is represented under Census criteria in determining their degree of access to resources such as health care, educational facilities, and utility infrastructure. Additionally, the frameworks used by The Census to collect demographic information are widely adopted by external groups in all sectors, seen as the approved standard.</p>
+        </div>
+        <div class="masthead-subheading font-weight-light mb-0">
+          <p class="lead">As today's American population becomes increasingly diverse, we wondered if today's US Census categories allowed for sufficient freedom of expression. What could we learn, we wondered, if we allowed people to describe themselves however they liked?</p>
+        </div>
+        <div class="masthead-subheading font-weight-light mb-0">
+          <p class="lead">This project seeks to explore how structure racial and ethnic demographic data collection can fail to capture the complex identities of America’s population. We use natural language processing to group users into race/ethnicity categories based on user-inputted free text describing their race, and compare these results to their Census categorization.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="page-section pt-0" id="context">
+    <div class="container">
+
+      <!-- About Section Heading -->
+      <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Historical Context</h2>
+
+      <!-- Icon Divider -->
+      <div class="divider-custom divider-dark">
+        <div class="divider-custom-line"></div>=
+      </div>
+
+      <!-- About Section Content -->
+      <div class="row">
+        <div class="masthead-subheading font-weight-light mb-0">
+          <p class="lead">The terms 'race' and 'ethnicity' are relatively new concepts in American history, and our definitions of them have shifted over time. Today, race is typically associated with a person’s physical characteristics, such as skin or hair color, facial structure, or body type. Ethnicity, on the other hand, refers to a population with shared cultural traits and/or  geographical origin. However, these terms are often colloquially used interchangeably, and how an individual self-identifies is additionally complex and unique.
+          </p>
+        </div>
+        <div class="masthead-subheading font-weight-light mb-0">
+          <p class="lead">The US Census Bureau today does not discriminate between these two terms, allowing for multiple selections across categories that fall within both definitions. But the categories presented on The Census have been anything but static. Dating back to 1970, the first population census labeled individuals into one of three categories: free white men or women, free non white people, and slaves. These groups didn’t change for 70 years, when a category for American Indians was introduced. Over the next two centuries, groups were added, and in some cases removed, based on the shifting population and needs of the federal government. Today, we have more options than ever before. But do these options sufficiently capture the diversity and complexity of today’s population?
+          </p>
+        </div>
+        <div class="masthead-subheading font-weight-light mb-0">
+          <p class="lead"></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+ <!-- About Section -->
+  <section class="page-section pt-0" id="experiment">
+    <div class="container">
+
+      <!-- About Section Heading -->
+      <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Experiment Design</h2>
+
+      <!-- Icon Divider -->
+      <div class="divider-custom divider-dark">
+        <div class="divider-custom-line"></div>
+      </div>
+
+      <!-- About Section Content -->
+      <div class="row">
+        <div class="masthead-subheading font-weight-light mb-0">
+          <p class="lead">To explore the question of how well Census categories capture our racial/ethnic identities, we surveyed 4,550 United States respondents, asking them two questions:
+          </p>
+        </div>
+        <div class="masthead-subheading font-weight-light mb-0">
+          <p class="lead">1. How would you describe your ethnic/racial identity? Please be as specific or broad as you like.
+          </p>
+        </div>
+        <div class="masthead-subheading font-weight-light mb-0">
+          <p class="lead">2. Which category best describes you? Check all that apply.</br>
+          </p>
+        </div>
+        <div class="masthead-subheading font-weight-light mb-0">
+          <ul class="lead">
+          	<li>White</li>
+          	<li>Hispanic, Latino or Spanish origin</li>
+          	<li>Black or African American</li>
+          	<li>Asian</li>
+          	<li>American Indian or Alaska Native</li>
+          	<li>Middle Eastern or North African</li>
+          	<li>Native Hawaiian or Other Pacific Islander</li>
+          	<li>Other</li>
+          </ul>
+        </div>
+        <div class="masthead-subheading font-weight-light mb-0">
+          <p class="lead">We analyzed their responses, looking for differences between self-described race and ethnicity, and the categories selected within the Census framework. We ran Natural Language Processing on the free text responses attempting to cluster categories in that way. Our analysis led to several key findings as well as plenty of opportunities for further research.
+          </p>
+        </div>
+        <div class="masthead-subheading font-weight-light mb-0">
+          <p class="lead"></p>
+        </div>
+      </div>
+    </div>
+  </section>
+   <section class="page-section pt-0" id="results">
+    <div class="container">
+
+      <!-- About Section Heading -->
+      <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Results</h2>
+
+      <!-- Icon Divider -->
+      <div class="divider-custom divider-dark">
+        <div class="divider-custom-line"></div>
+      </div>
+
+      <!-- About Section Content -->
+      <div class="row">
+        <div class="masthead-subheading font-weight-light mb-0">
+          <p class="lead">Given the diverse racial/ethnic makeup of the U.S. population, our hypotehsis going into the experiment was that we would find a large percentage of respondents who would self-desribe in a different way than from the pre-defined Census categories, and would check the "Other" category on the Census question. However, our survey responses did not support this hypothesis. Instead only just over 1% (n=60) of respondents checks the "Other" category, and roughly 62% (n=2,816) of the respondents self-described in accordance with the pre-defined Census categories, for example writing "Asian" then checking the "Asian" category. The other 37% of respondents (n=1,734) describes themselves differently from the pre-defined Census categories, but did not check the "Other" box on the Census question, for instance one might have self-described as Korean but then checked the "Asian" category on the census question.
+          </p>
+        </div>
+        <div class="masthead-subheading font-weight-light mb-0">
+          <p class="lead">Our analysis focused on the 37% of respondents who self-described outside of the pre-existing Census categories. Those individuals were typically doing so for one of three reasons:
+          </p>
+        </div>
+        <div class="masthead-subheading font-weight-light mb-0">
+          <p class="lead">1. They are looking for more specific categories (typically based on geography or place of origin). This is evident in the below visual, showing the top terms used in the self-description field within the Asian Census category.
+          </p>
+	      <img class="masthead-avatar mb-5" src="img/asian.png" alt="" width="100%">
+        </div>
+        <div class="masthead-subheading font-weight-light mb-0">
+          <p class="lead">2. They identify as American or a variant thereof. Of those who used the term “American” as a descriptor in their self-description, the majority of them selected the White category, but certainly the American identity was present across the majority of ethnic groups.
+          </p>
+          <img class="masthead-avatar mb-5" src="img/american.png" alt="" width="100%">
+        </div>
+        <div class="masthead-subheading font-weight-light mb-0">
+          <p class="lead">3. Their identity doesn’t fit into a category (mixed race, religious identification, other). This group of individuals is necessarily the most difficult to analyze, as their descriptions are varied, diverse, and often cross ethnic categories. 
+          </p>
+        </div>
+        <div class="masthead-subheading font-weight-light mb-0">
+          <p class="lead"></p>
+        </div>
+      </div>
+    </div>
+  </section>
+   </section>
+   <section class="page-section mb-0" id="conclusion">
+    <div class="container">
+
+      <!-- About Section Heading -->
+      <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Conclusion</h2>
+
+      <!-- Icon Divider -->
+      <div class="divider-custom divider-dark">
+        <div class="divider-custom-line"></div>
+      </div>
+
+      <!-- About Section Content -->
+      <div class="row">
+        <div class="masthead-subheading font-weight-light mb-0">
+          <p class="lead">  
+          </p>
+        </div>
+        <div class="masthead-subheading font-weight-light mb-0">
+          <p class="lead">At the start of this research, our goal was to provide a recommendation for additional categories to be included in The Census in the future. While in our analysis no single groups were clearly identified, we ultimately have some direction for future research.
+          </p>
+        </div>
+        <div class="masthead-subheading font-weight-light mb-0">
+          <p class="lead">The groups for which a more specific Census category would add the most value are those whose identities are markedly different from their broader racial/ethnic categories. While these groups may be relatively small by volume, they stand to benefit the most by targeted recognition in Census results through additional resource allocation or program access.There is a myriad of criteria that could be used for determining these groups requires, and significant further research is required.
+          </p>
+        </div>
+        <div class="masthead-subheading font-weight-light mb-0">
+          <p class="lead"></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer text-center">
+    <div class="container">
+      <div class="row">
+
+        <!-- Footer Location -->
+        <div class="col-lg-4 mb-5 mb-lg-0">
+          <h4 class="text-uppercase mb-4">Capstone 2019</h4>
+          <p class="lead mb-0">UC Berkeley
+            <br>School of Information</p>
+        </div>
+
+        <!-- Footer Social Icons -->
+        <div class="col-lg-4 mb-5 mb-lg-0">
+    <!--       <h4 class="text-uppercase mb-4">Around the Web</h4> -->
+          <a class="btn btn-outline-light btn-social mx-1" href="https://www.facebook.com/BerkeleyDataScience">
+            <i class="fab fa-fw fa-facebook-f"></i>
+          </a>
+          <a class="btn btn-outline-light btn-social mx-1" href="http://www.twitter.com/BerkeleyData">
+            <i class="fab fa-fw fa-twitter"></i>
+          </a>
+          <a class="btn btn-outline-light btn-social mx-1" href="http://www.linkedin.com/company/datascience-berkeley">
+            <i class="fab fa-fw fa-linkedin-in"></i>
+          </a>
+          <a class="btn btn-outline-light btn-social mx-1" href="https://datascience.berkeley.edu/">
+            <i class="fab fa-fw fa-dribbble"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+  <div class="scroll-to-top d-lg-none position-fixed ">
+    <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top">
+      <i class="fa fa-chevron-up"></i>
+    </a>
+  </div>
+
+  <!-- Portfolio Modals -->
+
+  <!-- Portfolio Modal 1 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-labelledby="portfolioModal1Label" aria-hidden="true">
+    <div class="modal-dialog modal-xl" role="document">
+      <div class="modal-content">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">
+            <i class="fas fa-times"></i>
+          </span>
+        </button>
+        <div class="modal-body text-center">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <!-- Portfolio Modal - Title -->
+                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Log Cabin</h2>
+                <!-- Icon Divider -->
+                <div class="divider-custom">
+                  <div class="divider-custom-line"></div>
+                  <div class="divider-custom-icon">
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <div class="divider-custom-line"></div>
+                </div>
+                <!-- Portfolio Modal - Image -->
+                <img class="img-fluid rounded mb-5" src="img/portfolio/cabin.png" alt="">
+                <!-- Portfolio Modal - Text -->
+                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                <button class="btn btn-primary" href="#" data-dismiss="modal">
+                  <i class="fas fa-times fa-fw"></i>
+                  Close Window
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Portfolio Modal 2 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-labelledby="portfolioModal2Label" aria-hidden="true">
+    <div class="modal-dialog modal-xl" role="document">
+      <div class="modal-content">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">
+            <i class="fas fa-times"></i>
+          </span>
+        </button>
+        <div class="modal-body text-center">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <!-- Portfolio Modal - Title -->
+                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Tasty Cake</h2>
+                <!-- Icon Divider -->
+                <div class="divider-custom">
+                  <div class="divider-custom-line"></div>
+                  <div class="divider-custom-icon">
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <div class="divider-custom-line"></div>
+                </div>
+                <!-- Portfolio Modal - Image -->
+                <img class="img-fluid rounded mb-5" src="img/portfolio/cake.png" alt="">
+                <!-- Portfolio Modal - Text -->
+                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                <button class="btn btn-primary" href="#" data-dismiss="modal">
+                  <i class="fas fa-times fa-fw"></i>
+                  Close Window
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Portfolio Modal 3 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-labelledby="portfolioModal3Label" aria-hidden="true">
+    <div class="modal-dialog modal-xl" role="document">
+      <div class="modal-content">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">
+            <i class="fas fa-times"></i>
+          </span>
+        </button>
+        <div class="modal-body text-center">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <!-- Portfolio Modal - Title -->
+                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Circus Tent</h2>
+                <!-- Icon Divider -->
+                <div class="divider-custom">
+                  <div class="divider-custom-line"></div>
+                  <div class="divider-custom-icon">
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <div class="divider-custom-line"></div>
+                </div>
+                <!-- Portfolio Modal - Image -->
+                <img class="img-fluid rounded mb-5" src="img/portfolio/circus.png" alt="">
+                <!-- Portfolio Modal - Text -->
+                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                <button class="btn btn-primary" href="#" data-dismiss="modal">
+                  <i class="fas fa-times fa-fw"></i>
+                  Close Window
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Portfolio Modal 4 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-labelledby="portfolioModal4Label" aria-hidden="true">
+    <div class="modal-dialog modal-xl" role="document">
+      <div class="modal-content">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">
+            <i class="fas fa-times"></i>
+          </span>
+        </button>
+        <div class="modal-body text-center">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <!-- Portfolio Modal - Title -->
+                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Controller</h2>
+                <!-- Icon Divider -->
+                <div class="divider-custom">
+                  <div class="divider-custom-line"></div>
+                  <div class="divider-custom-icon">
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <div class="divider-custom-line"></div>
+                </div>
+                <!-- Portfolio Modal - Image -->
+                <img class="img-fluid rounded mb-5" src="img/portfolio/game.png" alt="">
+                <!-- Portfolio Modal - Text -->
+                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                <button class="btn btn-primary" href="#" data-dismiss="modal">
+                  <i class="fas fa-times fa-fw"></i>
+                  Close Window
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Portfolio Modal 5 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-labelledby="portfolioModal5Label" aria-hidden="true">
+    <div class="modal-dialog modal-xl" role="document">
+      <div class="modal-content">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">
+            <i class="fas fa-times"></i>
+          </span>
+        </button>
+        <div class="modal-body text-center">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <!-- Portfolio Modal - Title -->
+                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Locked Safe</h2>
+                <!-- Icon Divider -->
+                <div class="divider-custom">
+                  <div class="divider-custom-line"></div>
+                  <div class="divider-custom-icon">
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <div class="divider-custom-line"></div>
+                </div>
+                <!-- Portfolio Modal - Image -->
+                <img class="img-fluid rounded mb-5" src="img/portfolio/safe.png" alt="">
+                <!-- Portfolio Modal - Text -->
+                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                <button class="btn btn-primary" href="#" data-dismiss="modal">
+                  <i class="fas fa-times fa-fw"></i>
+                  Close Window
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Portfolio Modal 6 -->
+  <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-labelledby="portfolioModal6Label" aria-hidden="true">
+    <div class="modal-dialog modal-xl" role="document">
+      <div class="modal-content">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">
+            <i class="fas fa-times"></i>
+          </span>
+        </button>
+        <div class="modal-body text-center">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <!-- Portfolio Modal - Title -->
+                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Submarine</h2>
+                <!-- Icon Divider -->
+                <div class="divider-custom">
+                  <div class="divider-custom-line"></div>
+                  <div class="divider-custom-icon">
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <div class="divider-custom-line"></div>
+                </div>
+                <!-- Portfolio Modal - Image -->
+                <img class="img-fluid rounded mb-5" src="img/portfolio/submarine.png" alt="">
+                <!-- Portfolio Modal - Text -->
+                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                <button class="btn btn-primary" href="#" data-dismiss="modal">
+                  <i class="fas fa-times fa-fw"></i>
+                  Close Window
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Contact Form JavaScript -->
+  <script src="js/jqBootstrapValidation.js"></script>
+  <script src="js/contact_me.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/freelancer.min.js"></script>
+
+</body>
+
+</html>
